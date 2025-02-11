@@ -158,7 +158,7 @@ These files are parsed at build time and stored on the final disk image in a bin
 
 This file is read and parsed once at program startup, and the parsed data is stored persistently in the language card. It is written to disk every time global state changes, which is often during Mega-Attract mode, or if the user toggles cheat mode.
 
-# Compression
+# [Compression](#compression)
 
 Many files in Total Replay are stored in a compressed format, then decompressed at run-time. The compression and decompression is handled by [Exomizer](https://bitbucket.org/magli143/exomizer/wiki/Home), which targets 8-bit platforms. Compressed files include
 
